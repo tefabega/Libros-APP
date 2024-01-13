@@ -1,0 +1,30 @@
+<div class="col-md-4 mx-auto">
+  <div class="card">
+    <div class="card-header bg-dark text-center">
+      <h3 class="text-white">Nuevo libro</h3>
+    </div>
+    <div class="card-body text-right">
+      <form action="/books/new-book" method="POST">
+        <div class="mb-3">
+          <label for="title">Titulo:</label>
+          <input type="text" name="title" class="form-control" placeholder="Titulo" autofocus />
+        </div>
+        <div class="mb-3">
+          <label for="author">Autor:</label>
+          <textarea name="author" class="form-control" placeholder="Autor"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="publicationYear">Año de publicación:</label>
+          <textarea name="publicationYear" class="form-control" placeholder="Año de publicación"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="state">Estado:</label>
+          <textarea name="state" class="form-control" placeholder="Disponible o Reservado"></textarea>
+        </div>
+        <button class="btn btn-primary w-100" type="submit">
+          Guardar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
