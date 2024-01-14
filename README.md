@@ -1,11 +1,11 @@
-# Notes App NodeMongo
+# Libros App NodeMongo
 
-This is a basic Web application to manage simple Notes on the web using Javascript Technologies like Nodejs, Mongodb, and other related technologies. Tecnically this is a Multi-Page Application using Handlebars as template engine.
+This is a basic Web application to manage simple Books on the web using Javascript Technologies like Nodejs, Mongodb, and other related technologies. Tecnically this is a Multi-Page Application using Handlebars as template engine.
 
 This app can do:
 
-- CRUD Operations: create/read/update/delete Notes
-- Allows a user to do login and save his personal notes
+- CRUD Operations: create/read/update/delete Books
+- Allows a user to do login and save his personal books
 
 
 ![](docs/screenshot.png)
@@ -14,7 +14,7 @@ This app can do:
 
 ```sh
 git
-cd nodejs-notes-app
+cd nodejs-books-app
 npm i
 npm run dev # run in development mode
 npm start # run in production mode
@@ -36,7 +36,7 @@ The most easy way to install the entire project is using docker-compose:
 
 ```shell
 git
-cd nodejs-notes-app
+cd nodejs-books-app
 docker-compose up
 ```
 
